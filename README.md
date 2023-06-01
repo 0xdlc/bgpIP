@@ -1,5 +1,5 @@
 # bgpIP
-just a handy small Py. script to get all the ips from bgp view. 
+just a handy small Py. script to get all the ip prefixes from bgp view. 
 
 Just Run:
 ```
