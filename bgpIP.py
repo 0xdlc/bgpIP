@@ -16,7 +16,7 @@ def main():
      if args.k in str(tr):
         for i in tr.find_all('td'):
             t= i.find('a')
-            if t == None or "AS" in str(t.next):
+            if t == None or "AS" in str(t.next) or ":" in str(t.next):
                continue
             else:
                print(t.next)
