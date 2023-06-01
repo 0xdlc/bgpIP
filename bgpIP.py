@@ -1,7 +1,7 @@
 import requests
 import argparse
 from bs4 import BeautifulSoup
-def scraper():
+def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('-u', required=True, default=False, metavar='search term', type=str)
   parser.add_argument('-k', required=True, default=False, metavar='keyword to filter eg.: Dell, Inc.', type=str)
@@ -21,4 +21,4 @@ def scraper():
             else:
                print(t.next)
 if __name__ == '__main__':
-    scraper()
+    main()
