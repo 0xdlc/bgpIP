@@ -20,10 +20,5 @@ def scraper():
                continue
             else:
                print(t.next)
-            # t= i.find('a')
-            # if t == None:
-            #    continue
-            # else:  
-            #     print(t.next)
 if __name__ == '__main__':
     scraper()
